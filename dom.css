@@ -1,0 +1,287 @@
+* {box-sizing:border-box}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-left: -950px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+.links{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.small-logo{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.title{
+    width: 100px;
+    font-family: 'Lobster', cursive;
+    margin-right: 260px;
+    font-size: 27px;
+}
+.slideshow-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 20px;
+}
+.product2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.food2{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.noodle{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.ramune{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.Mayonnaise{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.toppogi{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.allproduct{
+    display: flex;
+    justify-content: center;
+}
+.nori{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    margin-top: -10px;
+}
+.nami{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    margin-top: 20px;
+}
+.sanji{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    margin-top: 20px;
+}
+.tapioca{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.allproduct2{
+    display: flex;
+    justify-content: center;
+}
+.buldaktoppogi{
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.set{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.cupnoodle{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.george{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+}
+.allproduct3{
+    display: flex;
+    justify-content: center;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
